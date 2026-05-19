@@ -1,0 +1,627 @@
+{
+  "tossStats": {
+    "overall": {
+      "total_matches": 1218,
+      "toss_winner_won": 615,
+      "toss_winner_won_pct": 50.49,
+      "toss_winner_lost": 603,
+      "toss_winner_lost_pct": 49.51,
+      "chasing_won": 652,
+      "chasing_won_pct": 53.53,
+      "batting_first_won": 566,
+      "batting_first_won_pct": 46.47
+    },
+    "decisions": {
+      "bat": {
+        "total": 415,
+        "won": 184,
+        "win_pct": 44.34
+      },
+      "field": {
+        "total": 803,
+        "won": 431,
+        "win_pct": 53.67
+      }
+    },
+    "season_trends": [
+      {
+        "season": "2007/08",
+        "matches": 58,
+        "chase_win_pct": 62.07,
+        "field_choice_pct": 55.17
+      },
+      {
+        "season": "2009",
+        "matches": 57,
+        "chase_win_pct": 52.63,
+        "field_choice_pct": 38.6
+      },
+      {
+        "season": "2009/10",
+        "matches": 60,
+        "chase_win_pct": 46.67,
+        "field_choice_pct": 35.0
+      },
+      {
+        "season": "2011",
+        "matches": 73,
+        "chase_win_pct": 54.79,
+        "field_choice_pct": 65.75
+      },
+      {
+        "season": "2012",
+        "matches": 74,
+        "chase_win_pct": 54.05,
+        "field_choice_pct": 50.0
+      },
+      {
+        "season": "2013",
+        "matches": 76,
+        "chase_win_pct": 48.68,
+        "field_choice_pct": 40.79
+      },
+      {
+        "season": "2014",
+        "matches": 60,
+        "chase_win_pct": 61.67,
+        "field_choice_pct": 68.33
+      },
+      {
+        "season": "2015",
+        "matches": 59,
+        "chase_win_pct": 40.68,
+        "field_choice_pct": 57.63
+      },
+      {
+        "season": "2016",
+        "matches": 60,
+        "chase_win_pct": 68.33,
+        "field_choice_pct": 81.67
+      },
+      {
+        "season": "2017",
+        "matches": 59,
+        "chase_win_pct": 54.24,
+        "field_choice_pct": 81.36
+      },
+      {
+        "season": "2018",
+        "matches": 60,
+        "chase_win_pct": 53.33,
+        "field_choice_pct": 83.33
+      },
+      {
+        "season": "2019",
+        "matches": 60,
+        "chase_win_pct": 58.33,
+        "field_choice_pct": 83.33
+      },
+      {
+        "season": "2020/21",
+        "matches": 60,
+        "chase_win_pct": 48.33,
+        "field_choice_pct": 55.0
+      },
+      {
+        "season": "2021",
+        "matches": 60,
+        "chase_win_pct": 61.67,
+        "field_choice_pct": 73.33
+      },
+      {
+        "season": "2022",
+        "matches": 74,
+        "chase_win_pct": 50.0,
+        "field_choice_pct": 79.73
+      },
+      {
+        "season": "2023",
+        "matches": 74,
+        "chase_win_pct": 44.59,
+        "field_choice_pct": 71.62
+      },
+      {
+        "season": "2024",
+        "matches": 71,
+        "chase_win_pct": 50.7,
+        "field_choice_pct": 73.24
+      },
+      {
+        "season": "2025",
+        "matches": 74,
+        "chase_win_pct": 50.0,
+        "field_choice_pct": 81.08
+      },
+      {
+        "season": "2026",
+        "matches": 49,
+        "chase_win_pct": 63.27,
+        "field_choice_pct": 79.59
+      }
+    ],
+    "venue_trends": [
+      {
+        "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+        "matches": 15,
+        "toss_win_pct": 66.67,
+        "chase_win_pct": 53.33
+      },
+      {
+        "venue": "Ekana Cricket Stadium, Lucknow",
+        "matches": 26,
+        "toss_win_pct": 61.54,
+        "chase_win_pct": 53.85
+      },
+      {
+        "venue": "Kingsmead",
+        "matches": 15,
+        "toss_win_pct": 60.0,
+        "chase_win_pct": 46.67
+      },
+      {
+        "venue": "Sharjah Cricket Stadium, Sharjah",
+        "matches": 28,
+        "toss_win_pct": 57.14,
+        "chase_win_pct": 64.29
+      },
+      {
+        "venue": "Sawai Mansingh Stadium, Jaipur",
+        "matches": 66,
+        "toss_win_pct": 56.06,
+        "chase_win_pct": 65.15
+      },
+      {
+        "venue": "Maharashtra Cricket Association Stadium, Pune",
+        "matches": 51,
+        "toss_win_pct": 54.9,
+        "chase_win_pct": 45.1
+      },
+      {
+        "venue": "Dr DY Patil Sports Academy, Mumbai",
+        "matches": 37,
+        "toss_win_pct": 54.05,
+        "chase_win_pct": 54.05
+      },
+      {
+        "venue": "ACA-VDCA Stadium, Visakhapatnam",
+        "matches": 17,
+        "toss_win_pct": 52.94,
+        "chase_win_pct": 52.94
+      },
+      {
+        "venue": "M Chinnaswamy Stadium, Bengaluru",
+        "matches": 104,
+        "toss_win_pct": 52.88,
+        "chase_win_pct": 53.85
+      },
+      {
+        "venue": "Wankhede Stadium, Mumbai",
+        "matches": 131,
+        "toss_win_pct": 51.91,
+        "chase_win_pct": 54.96
+      },
+      {
+        "venue": "Brabourne Stadium, Mumbai",
+        "matches": 27,
+        "toss_win_pct": 51.85,
+        "chase_win_pct": 48.15
+      },
+      {
+        "venue": "MA Chidambaram Stadium, Chennai",
+        "matches": 96,
+        "toss_win_pct": 50.0,
+        "chase_win_pct": 44.79
+      },
+      {
+        "venue": "Eden Gardens, Kolkata",
+        "matches": 104,
+        "toss_win_pct": 50.0,
+        "chase_win_pct": 56.73
+      },
+      {
+        "venue": "Arun Jaitley Stadium, Delhi",
+        "matches": 102,
+        "toss_win_pct": 49.02,
+        "chase_win_pct": 50.98
+      },
+      {
+        "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+        "matches": 37,
+        "toss_win_pct": 48.65,
+        "chase_win_pct": 56.76
+      },
+      {
+        "venue": "Punjab Cricket Association Stadium, Mohali",
+        "matches": 61,
+        "toss_win_pct": 47.54,
+        "chase_win_pct": 55.74
+      },
+      {
+        "venue": "Narendra Modi Stadium, Ahmedabad",
+        "matches": 50,
+        "toss_win_pct": 46.0,
+        "chase_win_pct": 50.0
+      },
+      {
+        "venue": "HPCA Stadium, Dharamsala",
+        "matches": 15,
+        "toss_win_pct": 40.0,
+        "chase_win_pct": 33.33
+      },
+      {
+        "venue": "Dubai International Cricket Stadium, Dubai",
+        "matches": 46,
+        "toss_win_pct": 39.13,
+        "chase_win_pct": 47.83
+      },
+      {
+        "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+        "matches": 89,
+        "toss_win_pct": 35.96,
+        "chase_win_pct": 53.93
+      }
+    ]
+  },
+  "phaseStats": {
+    "Powerplay": {
+      "winner": {
+        "avg_runs": 51.29,
+        "avg_wickets": 1.11,
+        "avg_run_rate": 8.56
+      },
+      "loser": {
+        "avg_runs": 46.18,
+        "avg_wickets": 1.81,
+        "avg_run_rate": 7.56
+      },
+      "gap": {
+        "runs": 5.11,
+        "wickets": -0.7,
+        "run_rate": 1.0
+      },
+      "correlations": {
+        "more_runs_win_pct": 63.14,
+        "fewer_wickets_win_pct": 54.35,
+        "higher_rr_win_pct": 63.3
+      }
+    },
+    "Middle": {
+      "winner": {
+        "avg_runs": 74.33,
+        "avg_wickets": 1.87,
+        "avg_run_rate": 8.47
+      },
+      "loser": {
+        "avg_runs": 67.36,
+        "avg_wickets": 2.77,
+        "avg_run_rate": 7.45
+      },
+      "gap": {
+        "runs": 6.97,
+        "wickets": -0.9,
+        "run_rate": 1.02
+      },
+      "correlations": {
+        "more_runs_win_pct": 67.49,
+        "fewer_wickets_win_pct": 57.47,
+        "higher_rr_win_pct": 69.29
+      }
+    },
+    "Death": {
+      "winner": {
+        "avg_runs": 47.24,
+        "avg_wickets": 1.74,
+        "avg_run_rate": 11.27
+      },
+      "loser": {
+        "avg_runs": 44.11,
+        "avg_wickets": 2.83,
+        "avg_run_rate": 8.94
+      },
+      "gap": {
+        "runs": 3.13,
+        "wickets": -1.09,
+        "run_rate": 2.33
+      },
+      "correlations": {
+        "more_runs_win_pct": 47.62,
+        "fewer_wickets_win_pct": 64.12,
+        "higher_rr_win_pct": 64.12
+      }
+    }
+  },
+  "topBatters": [
+    {
+      "name": "Shubman Gill",
+      "runs": 2827,
+      "balls_faced": 1879,
+      "innings": 69,
+      "dismissals": 61,
+      "strike_rate": 150.45,
+      "average": 46.34,
+      "fifties": 19,
+      "hundreds": 4
+    },
+    {
+      "name": "V Kohli",
+      "runs": 2757,
+      "balls_faced": 1913,
+      "innings": 69,
+      "dismissals": 57,
+      "strike_rate": 144.12,
+      "average": 48.37,
+      "fifties": 24,
+      "hundreds": 3
+    },
+    {
+      "name": "JC Buttler",
+      "runs": 2487,
+      "balls_faced": 1665,
+      "innings": 65,
+      "dismissals": 56,
+      "strike_rate": 149.37,
+      "average": 44.41,
+      "fifties": 15,
+      "hundreds": 6
+    },
+    {
+      "name": "KL Rahul",
+      "runs": 2401,
+      "balls_faced": 1688,
+      "innings": 60,
+      "dismissals": 51,
+      "strike_rate": 142.24,
+      "average": 47.08,
+      "fifties": 16,
+      "hundreds": 4
+    },
+    {
+      "name": "YBK Jaiswal",
+      "runs": 2189,
+      "balls_faced": 1401,
+      "innings": 63,
+      "dismissals": 57,
+      "strike_rate": 156.25,
+      "average": 38.4,
+      "fifties": 17,
+      "hundreds": 2
+    },
+    {
+      "name": "B Sai Sudharsan",
+      "runs": 2178,
+      "balls_faced": 1472,
+      "innings": 50,
+      "dismissals": 45,
+      "strike_rate": 147.96,
+      "average": 48.4,
+      "fifties": 15,
+      "hundreds": 3
+    },
+    {
+      "name": "SA Yadav",
+      "runs": 2165,
+      "balls_faced": 1309,
+      "innings": 61,
+      "dismissals": 52,
+      "strike_rate": 165.39,
+      "average": 41.63,
+      "fifties": 17,
+      "hundreds": 2
+    },
+    {
+      "name": "Abhishek Sharma",
+      "runs": 2050,
+      "balls_faced": 1167,
+      "innings": 65,
+      "dismissals": 62,
+      "strike_rate": 175.66,
+      "average": 33.06,
+      "fifties": 12,
+      "hundreds": 2
+    },
+    {
+      "name": "SV Samson",
+      "runs": 2038,
+      "balls_faced": 1337,
+      "innings": 65,
+      "dismissals": 54,
+      "strike_rate": 152.43,
+      "average": 37.74,
+      "fifties": 12,
+      "hundreds": 2
+    },
+    {
+      "name": "Ishan Kishan",
+      "runs": 1955,
+      "balls_faced": 1332,
+      "innings": 67,
+      "dismissals": 62,
+      "strike_rate": 146.77,
+      "average": 31.53,
+      "fifties": 12,
+      "hundreds": 1
+    }
+  ],
+  "topBowlers": [
+    {
+      "name": "YS Chahal",
+      "wickets": 90,
+      "runs_conceded": 2221,
+      "balls_bowled": 1523,
+      "matches": 68,
+      "dot_balls": 428,
+      "economy": 8.75,
+      "strike_rate": 16.92,
+      "average": 24.68,
+      "best_figures": "5/40",
+      "five_w": 1
+    },
+    {
+      "name": "Arshdeep Singh",
+      "wickets": 78,
+      "runs_conceded": 2297,
+      "balls_bowled": 1485,
+      "matches": 68,
+      "dot_balls": 529,
+      "economy": 9.28,
+      "strike_rate": 19.04,
+      "average": 29.45,
+      "best_figures": "4/29",
+      "five_w": 0
+    },
+    {
+      "name": "Rashid Khan",
+      "wickets": 76,
+      "runs_conceded": 2160,
+      "balls_bowled": 1599,
+      "matches": 70,
+      "dot_balls": 492,
+      "economy": 8.11,
+      "strike_rate": 21.04,
+      "average": 28.42,
+      "best_figures": "4/24",
+      "five_w": 0
+    },
+    {
+      "name": "CV Varun",
+      "wickets": 74,
+      "runs_conceded": 1768,
+      "balls_bowled": 1300,
+      "matches": 59,
+      "dot_balls": 485,
+      "economy": 8.16,
+      "strike_rate": 17.57,
+      "average": 23.89,
+      "best_figures": "4/15",
+      "five_w": 0
+    },
+    {
+      "name": "B Kumar",
+      "wickets": 73,
+      "runs_conceded": 2088,
+      "balls_bowled": 1483,
+      "matches": 67,
+      "dot_balls": 572,
+      "economy": 8.45,
+      "strike_rate": 20.32,
+      "average": 28.6,
+      "best_figures": "5/30",
+      "five_w": 1
+    },
+    {
+      "name": "HV Patel",
+      "wickets": 73,
+      "runs_conceded": 1882,
+      "balls_bowled": 1218,
+      "matches": 59,
+      "dot_balls": 374,
+      "economy": 9.27,
+      "strike_rate": 16.68,
+      "average": 25.78,
+      "best_figures": "4/28",
+      "five_w": 0
+    },
+    {
+      "name": "Mohammed Siraj",
+      "wickets": 70,
+      "runs_conceded": 2208,
+      "balls_bowled": 1494,
+      "matches": 68,
+      "dot_balls": 637,
+      "economy": 8.87,
+      "strike_rate": 21.34,
+      "average": 31.54,
+      "best_figures": "4/17",
+      "five_w": 0
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "wickets": 69,
+      "runs_conceded": 1853,
+      "balls_bowled": 1348,
+      "matches": 62,
+      "dot_balls": 407,
+      "economy": 8.25,
+      "strike_rate": 19.54,
+      "average": 26.86,
+      "best_figures": "4/14",
+      "five_w": 0
+    },
+    {
+      "name": "TA Boult",
+      "wickets": 69,
+      "runs_conceded": 1952,
+      "balls_bowled": 1363,
+      "matches": 62,
+      "dot_balls": 554,
+      "economy": 8.59,
+      "strike_rate": 19.75,
+      "average": 28.29,
+      "best_figures": "4/26",
+      "five_w": 0
+    },
+    {
+      "name": "Avesh Khan",
+      "wickets": 63,
+      "runs_conceded": 1941,
+      "balls_bowled": 1197,
+      "matches": 56,
+      "dot_balls": 389,
+      "economy": 9.73,
+      "strike_rate": 19.0,
+      "average": 30.81,
+      "best_figures": "4/24",
+      "five_w": 0
+    }
+  ],
+  "ppTrap": [
+    {
+      "wickets": 0,
+      "innings": 524,
+      "wins": 354,
+      "win_pct": 67.56
+    },
+    {
+      "wickets": 1,
+      "innings": 843,
+      "wins": 478,
+      "win_pct": 56.7
+    },
+    {
+      "wickets": 2,
+      "innings": 644,
+      "wins": 262,
+      "win_pct": 40.68
+    },
+    {
+      "wickets": 3,
+      "innings": 305,
+      "wins": 79,
+      "win_pct": 25.9
+    },
+    {
+      "wickets": 4,
+      "innings": 89,
+      "wins": 16,
+      "win_pct": 17.98
+    },
+    {
+      "wickets": 5,
+      "innings": 22,
+      "wins": 4,
+      "win_pct": 18.18
+    },
+    {
+      "wickets": 6,
+      "innings": 2,
+      "wins": 0,
+      "win_pct": 0.0
+    },
+    {
+      "wickets": 7,
+      "innings": 1,
+      "wins": 0,
+      "win_pct": 0.0
+    }
+  ]
+}
