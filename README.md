@@ -14,7 +14,7 @@
 
 ---
 
-**[Live Demo →](#) · [Key Findings ↓](#-core-findings) · [Setup ↓](#-local-setup)**
+**[Live Demo →](https://ipl-crunch-26-opal.vercel.app/) · [Key Findings ↓](#-core-findings) · [Setup ↓](#-local-setup)**
 
 </div>
 
@@ -257,8 +257,8 @@ Raw CSV (73 MB)
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/ipl-crunch-26.git
-cd ipl-crunch-26
+git clone https://github.com/AribAsim/IPL-CRUNCH-26.git
+cd IPL-CRUNCH-26
 
 # 2. Install frontend dependencies
 npm install

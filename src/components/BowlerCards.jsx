@@ -3,6 +3,62 @@ import { motion } from 'framer-motion';
 import { Shield, Zap, CircleDot, Activity } from 'lucide-react';
 import data from '../data/processed.json';
 
+const playerImageMap = {
+  'YS Chahal': 'https://i.cricketcb.com/stats/img/faceImages/10834.jpg',
+  'Arshdeep Singh': 'https://i.cricketcb.com/stats/img/faceImages/13159.jpg',
+  'Rashid Khan': 'https://i.cricketcb.com/stats/img/faceImages/10714.jpg',
+  'CV Varun': 'https://i.cricketcb.com/stats/img/faceImages/12479.jpg',
+  'B Kumar': 'https://i.cricketcb.com/stats/img/faceImages/1726.jpg',
+  'HV Patel': 'https://i.cricketcb.com/stats/img/faceImages/8535.jpg',
+  'Mohammed Siraj': 'https://i.cricketcb.com/stats/img/faceImages/11130.jpg',
+  'Kuldeep Yadav': 'https://i.cricketcb.com/stats/img/faceImages/9595.jpg',
+  'TA Boult': 'https://i.cricketcb.com/stats/img/faceImages/7724.jpg',
+  'Avesh Khan': 'https://i.cricketcb.com/stats/img/faceImages/10178.jpg'
+};
+
+const PlayerAvatar = ({ name, initials, isGold }) => {
+  const [hasError, setHasError] = useState(false);
+  const imageUrl = playerImageMap[name];
+  
+  return (
+    <div className="player-avatar" style={{
+      background: isGold 
+        ? 'linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(234, 179, 8, 0.05))' 
+        : 'linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(0, 0, 0, 0.2))',
+      borderColor: isGold ? 'var(--accent-gold)' : 'var(--border-color)',
+      color: isGold ? 'var(--accent-gold)' : 'var(--accent-cyan)',
+      overflow: 'hidden',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: '50%',
+      width: '70px',
+      height: '70px',
+      border: '2px solid',
+      margin: '0 auto 16px auto',
+      position: 'relative'
+    }}>
+      {imageUrl && !hasError ? (
+        <img 
+          src={imageUrl} 
+          alt={name} 
+          style={{ 
+            width: '100%', 
+            height: '100%', 
+            objectFit: 'cover',
+            objectPosition: 'top'
+          }} 
+          onError={() => setHasError(true)}
+        />
+      ) : (
+        <span style={{ fontSize: '18px', fontWeight: 'bold', fontFamily: 'var(--font-display)' }}>
+          {initials.toUpperCase()}
+        </span>
+      )}
+    </div>
+  );
+};
+
 const BowlerCards = () => {
   const [showAll, setShowAll] = useState(false);
   const bowlers = data.topBowlers;
@@ -76,15 +132,7 @@ const BowlerCards = () => {
               transition={{ type: 'spring', stiffness: 400, damping: 25 }}
             >
               <div className="player-rank">#{index + 1}</div>
-              <div className="player-avatar" style={{
-                background: index === 0 
-                  ? 'linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(234, 179, 8, 0.05))' 
-                  : 'linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(0, 0, 0, 0.2))',
-                borderColor: index === 0 ? 'var(--accent-gold)' : 'var(--border-color)',
-                color: index === 0 ? 'var(--accent-gold)' : 'var(--accent-cyan)'
-              }}>
-                {initials.toUpperCase()}
-              </div>
+              <PlayerAvatar name={player.name} initials={initials} isGold={index === 0} />
               <h3 className="player-name">{player.name}</h3>
               
               <div style={{ marginBottom: '16px' }}>
