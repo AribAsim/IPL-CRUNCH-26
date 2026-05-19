@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Hero from './components/Hero';
 import TossChart from './components/TossChart';
 import PhaseChart from './components/PhaseChart';
