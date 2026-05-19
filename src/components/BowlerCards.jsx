@@ -59,10 +59,14 @@ const PlayerAvatar = ({ name, initials, isGold }) => {
   );
 };
 
-const BowlerCards = () => {
+const BowlerCards = ({ searchQuery = '' }) => {
   const [showAll, setShowAll] = useState(false);
   const bowlers = data.topBowlers;
-  const displayedBowlers = showAll ? bowlers : bowlers.slice(0, 5);
+  const filteredBowlers = bowlers.filter(player => 
+    player.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+  const displayedBowlers = showAll ? filteredBowlers : filteredBowlers.slice(0, 5);
+
 
   const container = {
     hidden: { opacity: 0 },
@@ -102,6 +106,12 @@ const BowlerCards = () => {
           {showAll ? 'Show Top 5' : 'Show Top 10'}
         </button>
       </div>
+
+      {filteredBowlers.length === 0 && (
+        <div style={{ padding: '40px 0', textAlign: 'center', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)', fontSize: '13px' }}>
+          No matching bowlers found.
+        </div>
+      )}
 
       <motion.div 
         variants={container}
