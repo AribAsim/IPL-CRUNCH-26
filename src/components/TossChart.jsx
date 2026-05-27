@@ -63,7 +63,7 @@ const TossChart = () => {
 
   return (
     <div className="glass-card" style={{ marginBottom: '40px' }}>
-      <div style={{ display: 'flex', flexDirection: 'column', mdDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', gap: '16px', marginBottom: '24px' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'flex-start', gap: '16px', marginBottom: '24px' }}>
         <div>
           <div className="badge badge-blue" style={{ marginBottom: '8px' }}>
             <BarChart2 size={12} style={{ marginRight: '4px' }} /> toss analysis
@@ -161,7 +161,7 @@ const TossChart = () => {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr', lgGridTemplateCols: '3fr 2fr', gap: '32px' }} className="grid-cols-2">
+      <div className="chart-layout-grid">
         {/* Visualization area */}
         <div style={{ height: '320px', width: '100%', minHeight: '320px' }}>
           <AnimatePresence mode="wait">

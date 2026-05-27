@@ -25,7 +25,7 @@
     },
     "season_trends": [
       {
-        "season": "2007/08",
+        "season": "2008",
         "matches": 58,
         "chase_win_pct": 62.07,
         "field_choice_pct": 55.17
@@ -37,7 +37,7 @@
         "field_choice_pct": 38.6
       },
       {
-        "season": "2009/10",
+        "season": "2010",
         "matches": 60,
         "chase_win_pct": 46.67,
         "field_choice_pct": 35.0
@@ -97,7 +97,7 @@
         "field_choice_pct": 83.33
       },
       {
-        "season": "2020/21",
+        "season": "2020",
         "matches": 60,
         "chase_win_pct": 48.33,
         "field_choice_pct": 55.0

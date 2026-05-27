@@ -317,14 +317,7 @@ function App() {
       {/* 2. CENTER PANEL */}
       <main className="center-panel">
         {/* Global Dashboard Top Header */}
-        <div style={{ 
-          display: 'flex', 
-          justifyContent: 'space-between', 
-          alignItems: 'center', 
-          marginBottom: '32px',
-          borderBottom: '1px solid var(--border-color)',
-          paddingBottom: '16px'
-        }}>
+        <div className="dashboard-header">
           <div>
             <span style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--text-muted)' }}>
               IPL Strategy Workspace
@@ -340,7 +333,7 @@ function App() {
           </div>
 
           {/* Search bar and Notifications */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <div className="search-notif-container">
             <div style={{ 
               position: 'relative', 
               display: 'flex', 
@@ -505,7 +498,7 @@ function App() {
                     </div>
 
                     {/* Dashboard summary stats */}
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }} className="grid-cols-2">
+                    <div style={{ marginBottom: '24px' }} className="grid-cols-2">
                       <div className="glass-card">
                         <div className="badge badge-blue" style={{ marginBottom: '12px' }}>
                           <Trophy size={12} /> Executive Summary
