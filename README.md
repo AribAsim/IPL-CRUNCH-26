@@ -14,7 +14,7 @@
 
 ---
 
-**[Live Demo →](https://ipl-crunch-26-opal.vercel.app/) · [Key Findings ↓](#-core-findings) · [Setup ↓](#-local-setup)**
+**[Live Demo →](https://ipl-crunch-26-beige.vercel.app/) · [Key Findings ↓](#-core-findings) · [Setup ↓](#-local-setup)**
 
 </div>
 
